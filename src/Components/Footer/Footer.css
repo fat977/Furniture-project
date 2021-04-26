@@ -1,0 +1,15 @@
+i{
+    font-size: 25px;
+}
+[class~="fa-facebook"]:hover{
+    color: #0060DF;
+}
+[class~="fa-twitter"]:hover{
+    color: rgb(29, 161, 242);
+}
+[class~="fa-instagram"]:hover{
+    color: purple;
+}
+[class~="fa-google-plus-g"]:hover{
+    color: red;
+}

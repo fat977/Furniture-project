@@ -1,0 +1,38 @@
+{
+    "Chairs" : [
+        {
+            "id": 1,
+            "image" : "/images/chair1.jpg"
+        },
+        {
+            "id": 2,
+            "image" : "/images/chair2.jpg"
+        },
+        {
+            "id": 3,
+            "image" : "/images/chair3.jpg"
+        },
+        {
+            "id": 4,
+            "image" : "/images/chair4.jpg"
+        }
+    ],
+    "Rooms" : [
+        {
+            "id": 1,
+            "image" : "/images/room1.jpg"
+        },
+        {
+            "id": 2,
+            "image" : "/images/room2.jpg"
+        },
+        {
+            "id": 3,
+            "image" : "/images/room3.jpg"
+        },
+        {
+            "id": 4,
+            "image" : "/images/room4.jpg"
+        }
+    ]
+}

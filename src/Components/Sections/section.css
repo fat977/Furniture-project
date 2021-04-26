@@ -1,0 +1,10 @@
+.col-6{
+    transition: 1s;
+}
+.col-6:hover{
+    transform: scale(1.1);
+}
+h3{
+    font-family: Lora, serif;
+    color: #17a2b8;
+}
