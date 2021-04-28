@@ -1,15 +1,27 @@
-i{
+i, span{
     font-size: 25px;
+    color: #fff;
 }
-[class~="fa-facebook"]:hover{
-    color: #0060DF;
+[class~="fa-facebook"]{
+    background: #0060DF;
 }
-[class~="fa-twitter"]:hover{
-    color: rgb(29, 161, 242);
+[class~="fa-twitter"]{
+    background-color: rgb(29, 161, 242);
+    border-radius: 50%;
 }
-[class~="fa-instagram"]:hover{
-    color: purple;
+[class~="fa-instagram"]{
+    background: #ff006e;
 }
-[class~="fa-google-plus-g"]:hover{
-    color: red;
+[class~="fa-google-plus-g"]{
+    background: #d90429;
+}
+[class~="fa-star"]{
+    color: #ffbe0b;
+}
+[class~="social"]{
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+
 }

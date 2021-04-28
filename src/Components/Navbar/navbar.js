@@ -7,6 +7,15 @@ class Navbar extends Component {
            $(window).scroll(function(){
                $('nav').toggleClass('scrolled' , $(this).scrollTop()>50);
            });
+           var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 50) {
+                    $(".nav-link , .navbar-brand").css('color', '#17a2b8');
+                } else {
+                    $(".nav-link , .navbar-brand").css('color', '#e5e5e5');
+                }
+            });
       
         });
      
@@ -14,10 +23,10 @@ class Navbar extends Component {
     render(){
         return (
             <div className ="header">
-                 <nav className="navbar navbar-expand-md navbar-light  fixed-top bgColor ">
+                 <nav className="navbar navbar-expand-md navbar-dark  fixed-top bgColor ">
                     <a className="navbar-brand" href="#">Modern Home</a>
     
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <button className="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span className="navbar-toggler-icon" style ={{color:'#17a2b8'}}></span>
                     </button>
     
@@ -39,9 +48,9 @@ class Navbar extends Component {
                                 <a className="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <div class="form-group has-search mt-3 d-none d-xl-block">
+                        <div class="form-group has-search mt-3 d-none d-xl-block pill">
                             <span class="fa fa-search form-control-feedback"></span>
-                            <input type="text" class="form-control" placeholder="Search"/>
+                            <input type="text" class="form-control search" placeholder="Search"/>
                         </div>
                     </div>
     

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className ="container">
+        <div className ="container mt-5">
            <form id="contact">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>

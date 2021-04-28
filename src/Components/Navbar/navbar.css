@@ -13,9 +13,9 @@
 }
 .navbar-brand{
     font-family: Ubuntu, sans-serif;
+    font-size: 1.875rem;
 }
-.navbar-brand , li a {
-    color: #17a2b8 !important;
+.navbar-brand , .nav-link {
     font-weight: bold;
 }
 li a {
@@ -39,7 +39,6 @@ li a {
 }
 .navbar-toggler{
    background-color: #17a2b8 !important;
-   columns: #fff !important;
     
 }
 #text{
@@ -89,4 +88,8 @@ li a {
 }
 [class~="fa-search"]{
     color: #17a2b8 !important;
+    
+}
+.search{
+    border-radius: 100px;
 }

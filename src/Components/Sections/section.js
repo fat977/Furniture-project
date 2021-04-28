@@ -47,7 +47,7 @@ const Section = () => {
                <button type="button" className ="btn text-white">View More</button>
             </div>
 
-            <h3 id="room">Rooms</h3>
+            <h3 className="mt-5" id="room">Rooms</h3>
             <div className ="row mt-5">
                 {RoomImages}
             </div>
